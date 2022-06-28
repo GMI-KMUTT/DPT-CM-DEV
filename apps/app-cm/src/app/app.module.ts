@@ -11,6 +11,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RoutingModule } from './routing/routing.module';
 import { ProjectComponent } from './pages/project/project.component';
+import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
+import { ConfirmOTPComponent } from './pages/confirm-otp/confirm-otp.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ProjectComponent } from './pages/project/project.component';
     LoginComponent,
     SidebarComponent,
     ProjectComponent,
+    ForgotPasswordComponent,
+    ConfirmOTPComponent,
   ],
   imports: [BrowserModule, HttpClientModule, MaterialModule, RoutingModule],
   providers: [],
