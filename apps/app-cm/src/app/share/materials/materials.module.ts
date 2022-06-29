@@ -19,6 +19,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 const MaterialComponents = [
   MatToolbarModule,
   MatCardModule,
@@ -42,7 +44,8 @@ const MaterialComponents = [
   // ScrollingModule,
   MatSnackBarModule,
   MatTabsModule,
-  MatAutocompleteModule
+  MatAutocompleteModule,
+  FlexLayoutModule,
 ];
 @NgModule({
   declarations: [],
